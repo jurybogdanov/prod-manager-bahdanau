@@ -1,0 +1,8 @@
+/.vs/*
+/ProductionManager.DbModel/bin/*
+/ProductionManager.DbModel/obj/*
+/ProductionManager.Services/bin/*
+/ProductionManager.Services/obj/*
+/ProductionManager.WebApi/bin/*
+/ProductionManager.WebApi/obj/*
+/ProductionManager.WebApi
