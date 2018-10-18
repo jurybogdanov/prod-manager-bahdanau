@@ -1,0 +1,51 @@
+2018-10-16 21:58:42,510  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:14038/api/values  
+ 2018-10-16 21:58:42,784  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 284.8904ms 404 
+ 2018-10-16 21:58:48,556  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:14038/api/product  
+ 2018-10-16 21:58:48,835  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method ProductionManager.WebApi.Controllers.ProductController.Get (ProductionManager.WebApi) with arguments ((null)) - ModelState is Valid
+ 2018-10-16 21:58:48,839  INFO Productin Manager logger.? [?] - MESSAGE: some info
+ 2018-10-16 21:58:49,828  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: The property 'SystemInformationId' on entity type 'AwbuildVersion' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+ 2018-10-16 21:58:49,831  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: The property 'ShiftId' on entity type 'Shift' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+ 2018-10-16 21:58:49,908  INFO Microsoft.EntityFrameworkCore.Infrastructure.? [?] - MESSAGE: Entity Framework Core 2.1.4-rtm-31024 initialized 'AdventureContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+ 2018-10-16 21:58:51,142  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (159ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [prd].[Class], [prd].[Name]
+FROM [Production].[Product] AS [prd]
+ 2018-10-16 21:58:51,311  INFO Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+ 2018-10-16 21:58:51,382  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action ProductionManager.WebApi.Controllers.ProductController.Get (ProductionManager.WebApi) in 2766.894ms
+ 2018-10-16 21:58:51,388  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 2832.2005ms 200 application/json; charset=utf-8
+ 2018-10-16 22:10:35,742  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:14038/api/product  
+ 2018-10-16 22:10:36,040  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:14038/api/values  
+ 2018-10-16 22:10:36,162  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 115.0771ms 404 
+ 2018-10-16 22:10:36,454  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method ProductionManager.WebApi.Controllers.ProductController.Get (ProductionManager.WebApi) with arguments ((null)) - ModelState is Valid
+ 2018-10-16 22:10:37,593  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: The property 'SystemInformationId' on entity type 'AwbuildVersion' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+ 2018-10-16 22:10:37,597  WARN Microsoft.EntityFrameworkCore.Model.Validation.? [?] - MESSAGE: The property 'ShiftId' on entity type 'Shift' is of type 'byte', but is set up to use a SQL Server identity column. This requires that values starting at 255 and counting down will be used for temporary key values. A temporary key value is needed for every entity inserted in a single call to 'SaveChanges'. Care must be taken that these values do not collide with real key values.
+ 2018-10-16 22:10:37,698  INFO Microsoft.EntityFrameworkCore.Infrastructure.? [?] - MESSAGE: Entity Framework Core 2.1.4-rtm-31024 initialized 'AdventureContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+ 2018-10-16 22:10:38,924  INFO Microsoft.EntityFrameworkCore.Database.Command.? [?] - MESSAGE: Executed DbCommand (157ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [prd].[Class], [prd].[Name]
+FROM [Production].[Product] AS [prd]
+ 2018-10-16 22:10:39,078  INFO Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+ 2018-10-16 22:10:39,140  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action ProductionManager.WebApi.Controllers.ProductController.Get (ProductionManager.WebApi) in 3007.3628ms
+ 2018-10-16 22:10:39,146  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 3420.7362ms 200 application/json; charset=utf-8
+ 2018-10-16 22:10:57,327  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:14038/api/values  
+ 2018-10-16 22:10:57,631  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 319.1031ms 404 
+ 2018-10-16 22:11:00,978  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request starting HTTP/1.1 GET http://localhost:14038/api/product  
+ 2018-10-16 22:11:01,239  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executing action method ProductionManager.WebApi.Controllers.ProductController.Get (ProductionManager.WebApi) with arguments ((null)) - ModelState is Valid
+ 2018-10-16 22:11:03,838  INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.? [?] - MESSAGE: Executed action ProductionManager.WebApi.Controllers.ProductController.Get (ProductionManager.WebApi) in 2799.808ms
+ 2018-10-16 22:11:03,934 ERROR Productin Manager logger.? [?] - MESSAGE: some test exception
+ System.Exception: some test exception
+   at ProductionManager.Services.ProductService.GetProducts() in C:\dev\AzureMentoring\module_2\production-manager\ProductionManager.Services\ProductService.cs:line 19
+   at ProductionManager.WebApi.Controllers.ProductController.Get() in C:\dev\AzureMentoring\module_2\production-manager\ProductionManager.WebApi\Controllers\ProductController.cs:line 22
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at ProductionManager.WebApi.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in C:\dev\AzureMentoring\module_2\production-manager\ProductionManager.WebApi\Middleware\ErrorHandlingMiddleware.cs:line 26
+2018-10-16 22:11:03,966  INFO Microsoft.AspNetCore.Hosting.Internal.WebHost.? [?] - MESSAGE: Request finished in 2988.4205ms 500 application/json
+ 
